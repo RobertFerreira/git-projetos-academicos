@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mr.Ice Cream - Todos os Sorvetes </title>
+    <link rel="icon" href="imagens/Logo/Logo 1 PNG.png">
+
+    <!-- Referências CSS Bootstrap -->
+    <link href="estilo.css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- Referência JS Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <!-- Header / Barra de Navegação -->
+    <div class="barra_navegacao">
+        <nav class="container-xl navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html" ;>
+                <img class="logo" src="imagens/Logo/Logo 3 PNG.png" alt="" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active texto_barra_navegacao" href="index.html"
+                        style="padding: 20px; padding-inline-start:30px; padding-inline-end: 30px;" ;> Página Inicial
+                        <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link texto_barra_navegacao" href="todos_sorvetes.html"
+                        style="padding: 20px; padding-inline-start:30px; padding-inline-end: 30px;" ;> Todos os Sorvetes
+                        <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link texto_barra_navegacao" href="marcas.html"
+                        style="padding:20px; padding-inline-start:30px; padding-inline-end: 30px;" ;> Marcas
+                        <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link texto_barra_navegacao" href="conhecanos.html"
+                        style="padding:20px; padding-inline-start:30px; padding-inline-end: 30px;" ;> Conheça-nos
+                        <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link texto_barra_navegacao" href="contato.html"
+                        style="padding:20px; padding-inline-start:30px; padding-inline-end: 30px;" ;> Contato e
+                        Informações <span class="sr-only">(current)</span></a>
+        </nav>
+    </div>
+
+    <nav aria-label="breadcrumb" class="barra_navegacao_secundaria">
+        <ol class="breadcrumb container-xl barra_navegacao_secundaria">
+            <li class="breadcrumb-item"><a href="index.html"> Página Inicial </a></li>
+            <li class="breadcrumb-item active" aria-current="page"> Todos os Sorvetes</li>
+        </ol>
+    </nav>
+
+    <!-- Todos os Sorvetes -->
+    <div class="container-xl pag_inicial">
+
+        <!-- Nav-Bar -->
+        <h1> Todos os Sorvetes</h1>
+        <nav aria-label="Page navigation example">
+            <nav aria-label="...">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item">
+                        <a class="page-link" href="todos_sorvetes2.html"> Voltar </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="todos_sorvetes.html">1</a></li>
+                    <li class="page-item"><a class="page-link" href="todos_sorvetes2.html">2</a></li>
+                    <li class="page-item active" aria-current="page">
+                        <span class="page-link">
+                            3
+                            <span class="sr-only">(current)</span>
+                        </span>
+                    </li>
+                    <li class="page-item disabled">
+                        <span class="page-link"> Avançar </span>
+                    </li>
+                </ul>
+            </nav>
+        </nav>
+
+        <!-- Cards -->
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_la_frutta_acai_banana_morango.html"><img src="imagens/Sorvetes/La Frutta Açaí+Banana+Morango.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> <span style="font-size: 11pt;">La Frutta Açaí + Banana + Morango </span> </h5>
+                        <p class="card-text">
+                            Para a alegria das crianças, o delicioso e refrescante La Frutta de sabor Açaí+Banana+Morango. <a href="paginas_sor/sor_la_frutta_acai_banana_morango.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_la_frutta_morango.html"><img src="imagens/Sorvetes/La Frutta Morango.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> La Frutta Morango </h5>
+                        <p class="card-text">
+                            Para a alegria das crianças, o delicioso e refrescante La Frutta de sabor Morango <a href="paginas_sor/sor_la_frutta_morango.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nav-Bar -->
+        <nav aria-label="Page navigation example">
+            <nav aria-label="...">
+                <ul class="pagination justify-content-end">
+                    <li class="page-item">
+                        <a class="page-link" href="todos_sorvetes2.html"> Voltar </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="todos_sorvetes.html">1</a></li>
+                    <li class="page-item"><a class="page-link" href="todos_sorvetes2.html">2</a></li>
+                    <li class="page-item active" aria-current="page">
+                        <span class="page-link">
+                            3
+                            <span class="sr-only">(current)</span>
+                        </span>
+                    </li>
+                    <li class="page-item disabled">
+                        <span class="page-link"> Avançar </span>
+                    </li>
+                </ul>
+            </nav>
+        </nav>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="rodape">
+        <footer class="container-lg">
+            <!-- Texto 1 Rodapé -->
+            <div class="texto_rodape">
+                <div>
+                    <p> <span> Endereço: </span> <br> Rua Salvador Branco de Andrade, 182 - Jardim Sao Miguel,<br>
+                        Taboão da
+                        Serra - SP, 06760-100</p>
+                </div>
+                <!-- Texto 2 Rodapé -->
+                <div>
+                    <p id="texto_rodape_direitos"> <span>Mr. Ice Cream </span>- Todos os Direitos Reservados &copy 2020
+                    </p>
+                </div>
+            </div>
+            <!-- Links Rodapé -->
+            <div class="links_rodape">
+                <ul type="none">
+                    <h1><span> Mr. Ice Cream </span></h1>
+                    <li><a href="./todos_sorvetes.html"> Todos os Sorvetes </a></li>
+                    <li><a href="./marcas.html"> Marcas </a></li>
+                    <li><a href="./conhecanos.html"> Conheça-nos </a></li>
+                    <li><a href="./contato.html"> Contato e Informações </a></li>
+                </ul>
+            </div>
+            <!-- Redes Sociais Rodapé -->
+            <div class="redes_sociais_rodape">
+                <ul type="none">
+                    <h2><span> Redes Sociais </span></h2>
+                    <li>
+                        <a href="https://pt-br.facebook.com/"><img src="imagens/Icones/Facebook.png"></a>
+                        <a href="https://www.instagram.com/"><img src="imagens/Icones/Instagram.png"></a>
+                        <a href="https://twitter.com/"><img src="imagens/Icones/Twitter.png"></a>
+                    </li>
+                    <li> &nbsp </li>
+                    <li> &nbsp </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

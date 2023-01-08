@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mr.Ice Cream - Página Inicial </title>
+    <link rel="icon" href="./imagens/Logo/Logo 1 PNG.png">
+
+    <!-- Referências CSS Bootstrap -->
+    <link href="estilo.css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- Referência JS Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <!-- Header / Barra de Navegação -->
+    <div class="barra_navegacao">
+        <nav class="container-xl navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html" ;>
+                <img class="logo" src="../PI Mr.Ice Cream/imagens/Logo/Logo 3 PNG.png" alt="" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active texto_barra_navegacao" href="index.html"
+                        style="padding: 20px; padding-inline-start:30px; padding-inline-end: 30px;" ;> Página Inicial
+                        <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link texto_barra_navegacao" href="todos_sorvetes.html"
+                        style="padding: 20px; padding-inline-start:30px; padding-inline-end: 30px;" ;> Todos os Sorvetes
+                        <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link texto_barra_navegacao" href="marcas.html"
+                        style="padding:20px; padding-inline-start:30px; padding-inline-end: 30px;" ;> Marcas
+                        <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link texto_barra_navegacao" href="conhecanos.html"
+                        style="padding:20px; padding-inline-start:30px; padding-inline-end: 30px;" ;> Conheça-nos
+                        <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link texto_barra_navegacao" href="contato.html"
+                        style="padding:20px; padding-inline-start:30px; padding-inline-end: 30px;" ;> Contato e
+                        Informações <span class="sr-only">(current)</span></a>
+        </nav>
+    </div>
+
+    <!-- Carrosel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner carrosel">
+            <div class="carousel-item active">
+                <a href="conhecanos.html">
+                    <img src="imagens/Banner's/Banner 1.jpg" class="d-block w-100 carrosel" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="marcas.html">
+                    <img src="imagens/Banner's/Banner 2.jpg" class="d-block w-100 carrosel" alt="...">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="marcas.html">
+                    <img src="imagens/Banner's/Banner 3.jpg" class="d-block w-100 carrosel" alt="...">
+                </a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <!-- Contéudo da Página Inicial -->
+
+    <!-- Novidades -->
+    <div class="container-xl pag_inicial">
+        <h5 id="titulo"> Sorvetes </h5>
+        <h1> Novidades </h1>
+        <p> Confira os novos sabores de sorvete disponiveis! </p>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_toddynho.html"><img src="imagens/Sorvetes/Toddynho.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Toddynho </h5>
+                        <p class="card-text">
+                            Toddynho traz a junção do delicioso e refrescante sorvete Kibon com a marca do tradicional achocolatado amado por todos. <a href="paginas_sor/sor_toddynho.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_nickelodeon_slime.html"><img src="imagens/Sorvetes/Nickelodeon Slime.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Nickelodeon Slime </h5>
+                        <p class="card-text">
+                            Picolé Nickelodeon Slime se inspira na febre das gelecas coloridas e traz sabores sortidos surpresa... <a href="paginas_sor/sor_nickelodeon_slime.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_tablito.html"><img src="imagens/Sorvetes/Tablito.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Tablito </h5>
+                        <p class="card-text">
+                            Tablito é um chocolate ao leite envolvido por sorvete de creme e coberto com uma casquinha de chocolate branco crocante. <a href="paginas_sor/sor_tablito.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_nestle_tuttiblue.html"><img src="imagens/Sorvetes/Nestlé Tuttiblue.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Nestlé Tuttiblue </h5>
+                        <p class="card-text">
+                            Para a alegria das crianças, Sorvetes Nestlé apresenta o picolé Tuttiblue, com aparência divertida... <a href="paginas_sor/sor_nestle_tuttiblue.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_nestle_prestigio.html"><img src="imagens/Sorvetes/Nestlé Prestígio Picolé.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Nestlé Prestígio </h5>
+                        <p class="card-text">
+                            Nestlé Prestígio o sabor que voce ama, baseado no bombom com delicioso recheio de coco. <a href="paginas_sor/sor_nestle_prestigio.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_nestle_moca_brigadeiro.html"><img src="imagens/Sorvetes/Nestlé Moça Brigadeiro.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Nestlé Moça Brigadeiro </h5>
+                        <p class="card-text">
+                            Nestlé Moça Brigadeiro o sabor que voce ama com uma cobertura deliciosa de brigadeiro <a href="paginas_sor/sor_nestle_moca_brigadeiro.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_nestle_gelato_fragola.html"><img src="imagens/Sorvetes/Nestlé Gelato Fragola.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Nestlé Gelato Fragola </h5>
+                        <p class="card-text">
+                            Nestlé Gelato Fragola é o mais novo picolé e cremoso sorvete Nestlé com um sabor inconfundível. <a href="paginas_sor/sor_nestle_gelato_fragola.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_nestle_classic.html"><img src="imagens/Sorvetes/Nestlé Classic.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Nestlé Classic </h5>
+                        <p class="card-text">
+                            Nestlé Classic é o clássico e cremoso chocolate Nestlé com um sabor inconfundível. <a href="paginas_sor/sor_nestle_classic.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_mega_doce_de_leite.html"><img src="imagens/Sorvetes/Mega Doce de Leite.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Mega Doce de Leite </h5>
+                        <p class="card-text">
+                            Sorvete Mega Doce de Leite proporciona uma experiência inconfundível com pedaços crocantes de doce de leite... <a href="paginas_sor/sor_mega_doce_de_leite.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Melhor Avaliados -->
+    <div class="container-xl pag_inicial">
+        <h5 id="titulo"> Sorvetes </h5>
+        <h1> Melhor Avaliados <span> &#9733; &#9733; &#9733; &#9733; &#9733; </span></h1>
+        <p> Confira os sorvetes com as melhores avaliações! </p>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_magnum_classico.html"><img src="imagens/Sorvetes/Magnum Clássico.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Magnum Clássico </h5>
+                        <p class="card-text">
+                            Magnum Clássico é um delicioso sorvete de baunilha com cobertura de chocolate belga. Imperdível! <a href="paginas_sor/sor_magnum_classico.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_magnum_red_velvet.html"><img src="imagens/Sorvetes/Magnum Red Velvet.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Magnum Red Velvet </h5>
+                        <p class="card-text">
+                            Delicioso sorvete de morango e chantilly com cobertura crocante de chocolate belga branco. <a href="paginas_sor/sor_magnum_red_velvet.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_mega_trufa_branco.html"><img src="imagens/Sorvetes/Mega Trufa Branco.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Mega Trufa Branco </h5>
+                        <p class="card-text">
+                            Sorvete Mega Trufa Branco proporciona uma experiência inconfundível com pedaços crocantes de chocolate ao leite... <a href="paginas_sor/sor_mega_trufa_branco.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_nestle_gelato_pistacchio.html"><img src="imagens/Sorvetes/Nestlé Gelato Pistacchio.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Nestlé Gelato Pistacchio </h5>
+                        <p class="card-text">
+                            Nestlé Gelato Pistacchio é o mais novo picolé e cremoso sorvete Nestlé com um sabor inconfundível. <a href="paginas_sor/sor_nestle_gelato_pistacchio.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_kibonbon_coco.html"><img src="imagens/Sorvetes/Kibonbon Coco.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Kibonbon Coco </h5>
+                        <p class="card-text">
+                            Kibonbon Coco, o Sorvete de coco cremoso com uma deliciosa cobertura sabor chocolate.  <a href="paginas_sor/sor_kibonbon_coco.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_magnum_branco.html"><img src="imagens/Sorvetes/Magnum Branco.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Magnum Branco </h5>
+                        <p class="card-text">
+                            Magnum White é um delicioso sorvete de baunilha com cobertura de chocolate belga branco. <a href="paginas_sor/sor_magnum_branco.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_mega_chocolate_branco.html"><img src="imagens/Sorvetes/Mega Chocolate Branco.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Mega Chocolate Branco </h5>
+                        <p class="card-text">
+                            Sorvete Mega Chocolate Branco proporciona uma experiência inconfundível com pedaços crocantes de chocolate branco.... <a href="paginas_sor/sor_mega_chocolate_branco.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_nestle_alpino.html"><img src="imagens/Sorvetes/Nestle Alpino.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Nestlé Alpino </h5>
+                        <p class="card-text">
+                            Alpino é o mais puro e cremoso chocolate NESTLÉ com um sabor inconfundível dos Alpes Suíços. <a href="paginas_sor/sor_nestle_alpino.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_mega_amendoas.html"><img src="imagens/Sorvetes/Mega Amêndoas.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Mega Amêndoas </h5>
+                        <p class="card-text">
+                            Sorvete Mega Amêndoas proporciona uma experiência inconfundível com pedaços crocantes... <a href="paginas_sor/sor_mega_amendoas.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Todos os Sorvetes -->
+    <div class="container-xl pag_inicial">
+        <h5 id="titulo"> Sorvetes </h5>
+        <h1> Todos os Sorvetes </h1>
+        <p> Confira todos os sorvetes do site! </p>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_mega classico.html"><img src="imagens/Sorvetes/Mega Clássico.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Mega Clássico </h5>
+                        <p class="card-text">
+                            Sorvete Mega Clássico proporciona uma experiência inconfundível com pedaços crocantes de chocolate... <a href="paginas_sor/sor_mega classico.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_magnum_vegano_amendoas.html"><img src="imagens/Sorvetes/Magnum Vegano Amêndoas.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Magnum Vegano Amêndoas </h5>
+                        <p class="card-text">
+                            100% delicioso: combinação perfeita de cobertura crocante de chocolate e amêndoas e um cremoso sorvete sabor baunilha. <a href="paginas_sor/sor_magnum_vegano_amendoas.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_la_frutta_uva.html"><img src="imagens/Sorvetes/La Frutta Uva.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> La Frutta Uva </h5>
+                        <p class="card-text">
+                            Para a alegria das crianças, o delicioso e refrescante La Frutta de sabor Uva. <a href="paginas_sor/sor_la_frutta_uva.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_kolorix.html"><img src="imagens/Sorvetes/Kolorix.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Kolorix </h5>
+                        <p class="card-text">
+                            Para a alegria das crianças, o sorvete Kolorix além de saboroso é muitocdivertido <a href="paginas_sor/sor_kolorix.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_kibonbon_morango.html"><img src="imagens/Sorvetes/Kibonbon Morango.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Kibonbon Morango </h5>
+                        <p class="card-text">
+                            Sorvete de morango com uma deliciosa cobertura com granulado sabor chocolate. <a href="paginas_sor/sor_kibonbon_morango.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_eskibon_classico.html"><img src="imagens/Sorvetes/Eskibon Clássico.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Eskibon Clássico </h5>
+                        <p class="card-text">
+                            A deliciosa barra de sorvete de baunilha coberta por uma casquinha irresistível de chocolate. <a href="paginas_sor/sor_eskibon_classico.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_fruttare_morango.html"><img src="imagens/Sorvetes/Fruttare.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Fruttare Morango </h5>
+                        <p class="card-text">
+                            Fruttare Muita Fruta Morango, a suculência desde a primeira mordida com sabor delicioso de morango. <a href="paginas_sor/sor_fruttare_morango.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_la_frutta_coco.html"><img src="imagens/Sorvetes/La Frutta Coco.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> La Frutta Coco </h5>
+                        <p class="card-text">
+                            Para a alegria das crianças, o delicioso e refrescante La Frutta de sabor Coco. <a href="paginas_sor/sor_la_frutta_coco.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card pag_inicial_card_shadow">
+                    <a href="paginas_sor/sor_frutilly.html"><img src="imagens/Sorvetes/Frutilly.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body pag_inicial_card pag_inicial_card_layout">
+                        <h5 class="card-title"> Frutilly </h5>
+                        <p class="card-text">
+                            Frutilly traz um delicioso e refrescante sorvete com sabor de morango recheado de sorvete sabor creme! <a href="paginas_sor/sor_frutilly.html"><button type="button" class="btn btn-primary"> Confira </button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="botao">
+            <a href="todos_sorvetes.html"><button type="button" class="btn btn-primary btn-lg"> Clique aqui para ver
+                    todos os sorvetes </button></a>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="rodape">
+        <footer class="container-lg">
+            <!-- Texto 1 Rodapé -->
+            <div class="texto_rodape">
+                <div>
+                    <p> <span> Endereço: </span> <br> Rua Salvador Branco de Andrade, 182 - Jardim Sao Miguel,<br>
+                        Taboão da
+                        Serra - SP, 06760-100</p>
+                </div>
+                <!-- Texto 2 Rodapé -->
+                <div>
+                    <p id="texto_rodape_direitos"> <span>Mr. Ice Cream </span>- Todos os Direitos Reservados &copy 2020
+                    </p>
+                </div>
+            </div>
+            <!-- Links Rodapé -->
+            <div class="links_rodape">
+                <ul type="none">
+                    <h1><span> Mr. Ice Cream </span></h1>
+                    <li><a href="todos_sorvetes.html"> Todos os Sorvetes </a></li>
+                    <li><a href="marcas.html"> Marcas </a></li>
+                    <li><a href="conhecanos.html"> Conheça-nos </a></li>
+                    <li><a href="contato.html"> Contato e Informações </a></li>
+                </ul>
+            </div>
+            <!-- Redes Sociais Rodapé -->
+            <div class="redes_sociais_rodape">
+                <ul type="none">
+                    <h2><span> Redes Sociais </span></h2>
+                    <li>
+                        <a href="https://pt-br.facebook.com/"><img src="imagens/Icones/Facebook.png"></a>
+                        <a href="https://www.instagram.com/"><img src="imagens/Icones/Instagram.png"></a>
+                        <a href="https://twitter.com/"><img src="imagens/Icones/Twitter.png"></a>
+                    </li>
+                    <li> &nbsp </li>
+                    <li> &nbsp </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

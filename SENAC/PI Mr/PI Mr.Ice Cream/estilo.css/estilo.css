@@ -1,0 +1,507 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* ------ Header / Barra de Navegação ------ */
+.barra_navegacao{
+  background-color: #303030;
+}
+
+.texto_barra_navegacao{
+    font-size: 11pt;
+    font-family: 'Fredoka One';
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff !important;
+}
+
+.texto_barra_navegacao:hover{
+  color: #6ac8ff !important;
+  opacity: 0.70 !important;
+}
+
+.logo {
+    width: 110px;
+    height: 95px;
+}
+
+.logo:hover{
+  opacity: 0.70;
+}
+
+/* ------ Barra de Navegação Secundária ------*/
+
+.barra_navegacao_secundaria {
+  background-color: #cfcfcf !important;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+.barra_navegacao_secundaria a {
+  color: #303030;
+}
+
+.barra_navegacao_secundaria a:hover {
+  color: #303030;
+}
+
+
+/* ------- Carrosel ------ */
+
+.carrosel{
+  max-width: fit-content;
+  width: 1200px;
+  height: 500px;
+  margin: 0px auto;
+  border-top: #ffffff 1px solid;
+}
+
+/* ------ Página Inicial ------*/
+.pag_inicial {
+ padding: 20px;
+ margin-top: 10px;
+}
+
+.pag_inicial  h1{
+  font-family: 'Fredoka One';
+  font-size: 25pt;
+  text-align: center;
+  margin-bottom: 0px;
+ }
+
+ .pag_inicial  h5{
+  font-family: 'Fredoka One';
+  color: #6ac8ff;
+  text-align: center;
+  margin-bottom: 20px;
+ }
+
+ .pag_inicial  h5#titulo {
+  font-family: 'Fredoka One';
+  text-align: center;
+  margin-bottom: 0px;
+  color: #6ac8ff;
+ }
+
+ .pag_inicial  h1 span{
+   color: yellow;
+   text-shadow: #303030 0px 1px 2px;
+ }
+
+ .pag_inicial  p {
+  text-align: center;
+  font-size: 11pt;
+  color: #6b6b6b;
+}
+
+/* Cards */
+.pag_inicial_card_layout {
+  padding: 15px !important;
+}
+
+.pag_inicial_card_shadow{
+  box-shadow: #a7a7a7 1px 1px 10px;
+  border: none !important;
+}
+
+.pag_inicial_card{
+  background-color: #303030;
+  color: #ffffff;
+  font-family: 'Fredoka One';
+  text-transform: uppercase;
+  margin-bottom: 2px !important;
+  text-align: center;
+}
+
+.pag_inicial_card p{
+  color: #a7a7a7;
+  font-family: 'Arial';
+  font-weight: bold;
+  text-align: left;
+  text-transform: none;
+  font-size: 10pt;
+}
+
+.pag_inicial_card p button{
+  float: right;
+  margin: 10px;
+  margin-bottom: 0px;
+  border-radius: 30px;
+  border-color: #6ac8ff;
+  background-color: #6ac8ff;
+  color: #ffffff;
+  font-family: 'Fredoka One';
+  text-transform: uppercase;
+}
+
+.pag_inicial_card p button:hover{
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #303030;
+}
+
+.pag_inicial_card p button:active{
+  border-color: #6ac8ff !important;
+  background-color: #6ac8ff !important;
+  color: #ffffff !important;
+}
+
+div .card img:hover{
+  width: 360px;
+  height: 360px;
+}
+
+/* Botão */
+
+.pag_inicial #botao {
+  margin: 0px auto;
+  width: fit-content;
+ }
+
+ .pag_inicial #botao button {
+  background-color: #6ac8ff;
+  border-color: #6ac8ff;
+  font-family: 'Fredoka One';
+ }
+
+ .pag_inicial #botao button:hover {
+  background-color: #303030;
+  border-color: #303030;
+  font-family: 'Fredoka One';
+  font-size: 20pt;
+ }
+
+ /* --- Todos os Sorvetes --- */
+ 
+ /* Nav-bar */
+
+.page-link {
+  font-family:'Fredoka One';
+  color: #303030 !important;
+}
+
+.page-link:hover {
+  color: #6ac8ff !important;
+}
+
+.page-item.active .page-link {
+  color: #ffffff !important;
+  background-color: #303030 !important;
+  border-color: unset !important;
+}
+
+.page-item.disabled .page-link{
+  color: #a7a7a7 !important;
+}
+
+ /* --- Marcas --- */
+.page_marcas {
+  position: relative;
+  display: inline-grid;
+  width: 365px;
+  height: 365px;
+  margin-bottom: 1px;
+}
+
+.page_marcas img {
+  width: 360px !important;
+  height: 360px !important;
+}
+
+.page_marcas img:hover {
+  width: 365px !important;
+  height: 365px !important;
+  opacity: 0.90 !important;
+}
+
+/* ------ Conheça-nos ------ */
+.pag_conhacanos  p {
+  text-align: justify !important;
+}
+
+/* ------ Contato e Informações ------ */
+.pag_contato  p {
+  font-family: 'Arial';
+  text-align: left;
+  font-size: 13pt;
+  color: #303030;
+}
+
+.pag_contato span {
+  font-family: 'Fredoka One';
+  color: #303030;
+}
+
+.pag_contato img {
+  width: 18px;
+  height: 18px;
+  margin-bottom: 5px;
+}
+
+/* ------ Página Individual Sorvete------*/
+.pag_indiv_sor {
+  position: relative;
+    display: inline-block;
+    max-width: fit-content;
+    width: 700px;
+    padding: 10px;
+    margin: auto 10px;
+}
+
+.pag_indiv_sor img{
+  width: 60px;
+  height: 60px;
+  margin-top: 5px;
+}
+
+.pag_indiv_sor p {
+  font-family: 'Arial';
+  font-size: 13pt !important;
+  color: #303030 !important;
+}
+
+.pag_indiv_sor p#nota_amarela {
+  font-size: 20pt !important;
+  color: yellow !important;
+}
+
+.pag_indiv_sor p#nota_preta {
+  color: #303030 !important;
+}
+
+.pag_indiv_sor span {
+    font-family: 'Fredoka One';
+    font-size: 17pt;
+    color: #303030;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+  /* ------ Rodapé ------ */
+
+  .rodape {
+    position: relative;
+    height: auto;
+    padding: 10px;
+    background-color: #303030;
+    color: #ffffff;
+  }
+
+/* Textos Rodapé */
+
+  .texto_rodape {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    margin: 0;
+    font-weight: bold;
+    color:#ffffff;
+  }
+
+  .texto_rodape p#texto_rodape_direitos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 33px;
+    margin-bottom: 0px;
+    font-size: 11pt;
+    font-weight: normal;
+  }
+
+
+  .texto_rodape span {
+      font-family: 'Fredoka One';
+      font-weight: normal;
+      color:#6ac8ff;
+      font-size: 13pt;
+  }
+
+/* Links Rodapé */
+
+.links_rodape{
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  margin: 0px 50px;
+}
+
+.links_rodape span{
+  font-family: 'Fredoka One';
+  color:#6ac8ff;
+  font-size: 20pt;
+  text-transform: none;
+}
+
+.links_rodape li a{
+font-family: 'Arial';
+font-weight: bold;
+color:#ffffff;
+font-size: 11pt;
+}
+
+/* Redes Sociais Rodapé */
+
+.redes_sociais_rodape{
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+  margin: 0px 50px;
+}
+
+.redes_sociais_rodape span{
+  font-family: 'Fredoka One';
+  color:#6ac8ff;
+  font-size: 20pt;
+  text-transform: none;
+}
+
+.redes_sociais_rodape img{
+  width: 25px;
+  height: 25px;
+  margin: 5px 5px;
+}
+
+.redes_sociais_rodape img:hover{
+  opacity: 0.70;
+}
+
+/* ------ Formulário ADMIN ------ */
+
+.form_admin_login {
+  position: relative;
+  display: inline-block;
+  width: 390px;
+  height: 399px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.form_admin_login h1 {
+  font-family: 'Fredoka One';
+  color:#303030;
+  padding-bottom: 30px;
+}
+
+.form_admin_login_texto {
+  font-family: 'Arial';
+  font-weight: bold;
+  color:#303030;
+}
+
+.form_admin_logo {
+  position: relative;
+  float: left;
+  width: 300px;
+  margin: 50px;
+}
+
+.form_admin_logo img {
+position: relative;
+display: inline-block;
+width: 300px;
+}
+
+.form_admin_botao {
+  font-family: 'Arial';
+  font-weight: bold !important;
+  background-color: #6ac8ff !important;
+  border: #6ac8ff !important;
+}
+
+.form_admin_botao:hover {
+  background-color: #303030 !important;
+  border: #303030 !important;
+}
+
+/* ------ Página do ADMIN ------ */
+
+.pag_admin h1 {
+  font-family: 'Fredoka One';
+  color:#303030;
+  margin-bottom: 15px;
+}
+
+.pag_admin p {
+  margin:20px 0px;
+}
+
+.pag_admin h5 {
+  font-family: 'Arial';
+  font-weight: bold;
+  color: #6ac8ff;
+  margin-bottom: 15px;
+}
+
+.pag_admin button {
+  background-color: #303030;
+  font-family: 'Arial';
+  font-weight: bold;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.pag_admin button:hover {
+  background-color: #6ac8ff;
+  border: 2px solid #6ac8ff;
+}
+
+.pag_admin button#button_sair{
+  background-color: #ffffff;
+  border: unset;
+  color: #303030;
+}
+
+.pag_admin button#button_sair:hover{
+  text-decoration: underline;
+}
+
+/* --- Página Buscar Sorvete */
+.pag_buscar_sor {
+    position: relative;
+    width: 300px;
+    margin-right: 30px;
+    padding: 1px;
+}
+
+.pag_buscar_sor button {
+  margin-top: 10px;
+}
+
+.pag_buscar_read_img {
+  width: 300px;
+  height: 300px;
+  margin: 30px 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.pag_buscar_read_img img{
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+.pag_buscar_read_form {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  display: inline-table;
+  margin: 0px 20px;
+}
+
+.pag_buscar_read_form label{
+  font-family: 'Arial';
+  font-weight: bold;
+  color: #303030;
+  margin-bottom: 5px;
+}
+
+/* --- Página Excluir Sorvete */
+.pag_excluir button {
+  margin-top: 20px;
+  font-family: arial;
+  font-weight: bold;
+  float: right;
+  font-size: 11pt;
+}
+
+.pag_excluir button#inserir_button{
+  margin-top: 20px;
+}
