@@ -30,4 +30,6 @@ const calcularTabuada = function (numeroTabuada) {
     }
 }
 
-calcularTabuada(10);
+module.exports = {
+    calcularTabuada,
+}
