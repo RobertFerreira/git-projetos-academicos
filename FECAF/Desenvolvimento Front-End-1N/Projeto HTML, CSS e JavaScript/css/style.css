@@ -1,0 +1,158 @@
+/*
+GRUPO:
+Robert Welis Ferreira da Silva
+R.A. 33537
+
+João Vitor Pires dos Santos
+R.A. 26728
+
+Derisvaldo Ferreira da Costa
+R.A. 34146
+*/
+
+/*---------------------------- GERAL ----------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/*---------------------------- HEADER ----------------------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 15px 0px;
+    height: 170px;
+}
+
+.header .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .title h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: dotted;
+    font-style: italic;
+}
+
+.header .title img{
+    width: 260px;
+    height: 85px;
+    margin-right: 20px;
+}
+
+.header .menu{
+    background-color: #216f82;
+}
+
+.header .menu ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #216f82;
+}
+
+.header .menu ul li{
+    width: 25%;
+    padding: 10px;
+    background-color: #216f82;
+    color: #000000;
+    font-weight: bold;
+}
+
+.header .menu ul li:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+/*---------------------------- FILTRO ----------------------------*/
+.filtro{
+    display: flex;
+    padding: 0px 50px;
+    background-color: #000000;
+}
+
+.filtro input{
+    width: 400px;
+    padding: 0px 10px;
+}
+
+.filtro button{
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: #216f82;
+    border: 0px;
+    cursor: pointer;
+}
+
+.filtro button:hover{
+    background-color: #ffffff;
+}
+
+/*---------------------------- CARDS ----------------------------*/
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #000000;
+    height: auto;
+    padding: 15px;
+}
+
+.cards h3 {
+    width: 100%;
+    height: 300px;
+    padding: 30px 0px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #434343;
+    margin: 15px;
+    width: 22%;
+}
+
+.cards .card .card-img {
+    flex: 1;
+}
+
+.cards .card .card-img img{
+    width: 100%;
+}
+
+.cards .card .card-statistics {
+    flex: 1;
+    width: 100%;
+    background-color: #d3d3d3;
+    padding: 0px 15px;
+}
+
+.cards .card .card-statistics table {
+    width: 100%;
+    font-size: 9pt;
+}
+
+.cards .card .card-statistics table tr{
+    line-height: 22px;
+}
+
+/*---------------------------- FOOTER ----------------------------*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #216f82;
+    color: #ffffff;
+    height: 100px;
+}
